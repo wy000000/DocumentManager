@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager", "DocumentManager\DocumentManager.csproj", "{F5DDA538-980C-450A-B4B2-03FC28C9EC65}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B3009C3-ECDC-4AEE-ACCD-B2998B3092E6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,14 +26,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A64156FE-82F2-4524-BB81-280070E1C673}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/wy00
-		SccProjectUniqueName0 = DocumentManager\\DocumentManager.csproj
-		SccProjectName0 = DocumentManager
-		SccLocalPath0 = DocumentManager
-		SccLocalPath1 = .
 	EndGlobalSection
 EndGlobal

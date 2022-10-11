@@ -85,7 +85,6 @@
     <None Include="config.json" />
     <None Include="config1.json" />
     <None Include="packages.config" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DocumentManager.resx">
