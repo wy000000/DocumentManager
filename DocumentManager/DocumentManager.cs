@@ -62,13 +62,13 @@ namespace DocumentManager
 
         private void Form1_Load(object sender, EventArgs e)
         {
-			//processinfo_class.createlog();
 			textBox_configPath.Text
 				= Path.Combine(System.Environment.CurrentDirectory, "config.json");
-			//courseNameChanged();
-			//course_class.rootPath = textBox_DestDicPath.Text;
-			//findMaxNo();
-		}
+            if (checkBox_compile.Checked)
+            {
+                compileScript();
+            }
+        }
 
         private void button_browser_DestDic_Click(object sender, EventArgs e)
         {
