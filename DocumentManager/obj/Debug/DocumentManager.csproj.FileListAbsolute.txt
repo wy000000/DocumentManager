@@ -22,3 +22,16 @@ C:\Users\ywu\Source\Repos\DocumentManager\DocumentManager\obj\Debug\DocumentMana
 C:\Users\ywu\Source\Repos\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.CopyComplete
 C:\Users\ywu\Source\Repos\DocumentManager\DocumentManager\obj\Debug\DocumentManager.exe
 C:\Users\ywu\Source\Repos\DocumentManager\DocumentManager\obj\Debug\DocumentManager.pdb
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\bin\Debug\DocumentManager.exe.config
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\bin\Debug\DocumentManager.exe
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.AssemblyReference.cache
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.DocumentManager.resources
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.GenerateResource.cache
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.CoreCompileInputs.cache
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.csproj.CopyComplete
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.exe
+C:\Users\wy\Source\Repos\wy000000\DocumentManager\DocumentManager\obj\Debug\DocumentManager.pdb

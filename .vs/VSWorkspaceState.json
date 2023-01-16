@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DocumentManager",
+    "\\packages"
   ],
-  "SelectedNode": "\\DocumentManager.sln",
+  "SelectedNode": "\\DocumentManager",
   "PreviewInSolutionExplorer": false
 }
