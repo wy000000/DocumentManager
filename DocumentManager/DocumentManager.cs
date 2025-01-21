@@ -263,8 +263,8 @@ namespace DocumentManager
 						numericUpDown_fileNo.Value = configClass.numericUpDown_fileNo;
 					}
 				}
-				else
-					textBox_configPath.Text = "";
+				//else
+				//	textBox_configPath.Text = "";
                 this.Enabled = true;
             }
             catch(Exception ep)
