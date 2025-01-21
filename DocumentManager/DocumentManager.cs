@@ -236,27 +236,35 @@ namespace DocumentManager
         {
             try
             {
-                this.Enabled = false;
-                //JsonTextReader reader = new JsonTextReader(new StringReader(json));
-
-                using (StreamReader sr = File.OpenText(textBox_configPath.Text))
-                {
-                    //string configStr = sr.ReadToEnd();
-                    //config_class configClass = JsonConvert.DeserializeObject<config_class>(configStr);
-                    JsonSerializer serializer = new JsonSerializer();
-                    config_class configClass = (config_class)serializer.Deserialize(sr, typeof(config_class));
-                    textBox_sourceDocPath.Text = configClass.sourcePath;
-                    textBox_DestDicPath.Text = configClass.destPath;
-                    textBox_inputArguments.Text = configClass.inputArguments;
-                    checkBox_IncludeFile.Checked = configClass.checkBox_IncludeFile;
-                    numericUpDown_DirectoryMaxDeep.Value = configClass.numericUpDown_DirectoryMaxDeep;
-                    //checkBox_regex.Checked = configClass.checkBox_regex;
-                    textBox_script.Text = configClass.textBox_script;
-                    checkBox_overWrite.Checked = configClass.checkBox_overWrite;
-                    checkBox_compile.Checked = configClass.checkBox_compile;
-                    checkBox_searchSubDir.Checked = configClass.checkBox_searchSubDir;
-                    numericUpDown_fileNo.Value = configClass.numericUpDown_fileNo;
-                }
+				this.Enabled = false;
+				//JsonTextReader reader = new JsonTextReader(new StringReader(json));
+				//openFileDialog_config.Title = "选择配置文件";
+				//openFileDialog_config.InitialDirectory = System.Environment.CurrentDirectory;
+				openFileDialog_config.InitialDirectory = Path.GetDirectoryName(textBox_configPath.Text);
+				if (openFileDialog_config.ShowDialog() == DialogResult.OK)
+				{
+					textBox_configPath.Text = openFileDialog_config.FileName;
+					using (StreamReader sr = File.OpenText(textBox_configPath.Text))
+					{
+						//string configStr = sr.ReadToEnd();
+						//config_class configClass = JsonConvert.DeserializeObject<config_class>(configStr);
+						JsonSerializer serializer = new JsonSerializer();
+						config_class configClass = (config_class)serializer.Deserialize(sr, typeof(config_class));
+						textBox_sourceDocPath.Text = configClass.sourcePath;
+						textBox_DestDicPath.Text = configClass.destPath;
+						textBox_inputArguments.Text = configClass.inputArguments;
+						checkBox_IncludeFile.Checked = configClass.checkBox_IncludeFile;
+						numericUpDown_DirectoryMaxDeep.Value = configClass.numericUpDown_DirectoryMaxDeep;
+						//checkBox_regex.Checked = configClass.checkBox_regex;
+						textBox_script.Text = configClass.textBox_script;
+						checkBox_overWrite.Checked = configClass.checkBox_overWrite;
+						checkBox_compile.Checked = configClass.checkBox_compile;
+						checkBox_searchSubDir.Checked = configClass.checkBox_searchSubDir;
+						numericUpDown_fileNo.Value = configClass.numericUpDown_fileNo;
+					}
+				}
+				else
+					textBox_configPath.Text = "";
                 this.Enabled = true;
             }
             catch(Exception ep)

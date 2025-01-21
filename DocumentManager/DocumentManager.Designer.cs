@@ -58,6 +58,7 @@ namespace DocumentManager
 			this.checkBox_overWrite = new System.Windows.Forms.CheckBox();
 			this.checkBox_compile = new System.Windows.Forms.CheckBox();
 			this.checkBox_searchSubDir = new System.Windows.Forms.CheckBox();
+			this.openFileDialog_config = new System.Windows.Forms.OpenFileDialog();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_fileNo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_DirectoryMaxDeep)).BeginInit();
 			this.SuspendLayout();
@@ -125,7 +126,7 @@ namespace DocumentManager
 			this.label3.ForeColor = System.Drawing.Color.ForestGreen;
 			this.label3.Location = new System.Drawing.Point(12, 9);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(634, 24);
+			this.label3.Size = new System.Drawing.Size(608, 23);
 			this.label3.TabIndex = 6;
 			this.label3.Text = "源文件命名不规范，程序不能准确分类文件，请手动确认。";
 			// 
@@ -343,6 +344,10 @@ namespace DocumentManager
 			this.checkBox_searchSubDir.Text = "搜索子文件夹";
 			this.checkBox_searchSubDir.UseVisualStyleBackColor = true;
 			// 
+			// openFileDialog_config
+			// 
+			this.openFileDialog_config.FileName = "openFileDialog1";
+			// 
 			// DocumentManager
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -416,5 +421,6 @@ namespace DocumentManager
 		private System.Windows.Forms.CheckBox checkBox_overWrite;
 		private System.Windows.Forms.CheckBox checkBox_compile;
 		private System.Windows.Forms.CheckBox checkBox_searchSubDir;
+		private System.Windows.Forms.OpenFileDialog openFileDialog_config;
 	}
 }

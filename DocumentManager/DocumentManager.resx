@@ -140,4 +140,7 @@
 -第三个域，带参数的字符串，表示文件夹或文件的名称。{0}表示自增编号，可调整。上面的输入参数组，可输入多个参数，以|分隔。假设有m个参数，则{1}-{m}分别表示这几个参数。{m+1}为隐藏参数，{m+1}表示当前文件夹或文件在父文件夹中从1开始的自增编号。隐藏参数大小无法调整。
 -第四个域，用于搜索要归类复制的文件名，支持|*?三种通配符。脚本第二个域为d，表示对源目录中匹配于搜索模式的文件归类复制到当前文件夹。脚本第二个域为f，表示对源目录中匹配于搜索模式的文件重命名并归类复制到当前文件所在的文件夹。</value>
   </data>
+  <metadata name="openFileDialog_config.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>641, 17</value>
+  </metadata>
 </root>
